@@ -7,6 +7,9 @@ import psycopg2
 from psycopg2.extensions import connection as PGConnection
 from botocore.exceptions import ClientError
 
+# git config
+# git config --global push.autoSetupRemote true
+
 load_dotenv()
 
 # DynamoDB
